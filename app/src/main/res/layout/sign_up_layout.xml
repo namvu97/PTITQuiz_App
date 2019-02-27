@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/login">
+    <EditText
+        android:id="@+id/edtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:hint="User Name"
+        android:drawableLeft="@mipmap/username"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"/>
+    <EditText
+        android:id="@+id/edtPassWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtUserName"
+        android:hint="Pass Word"
+        android:drawableLeft="@mipmap/password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"/>
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtPassWord"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@mipmap/email"
+        android:textColor="#FFFFFF"/>
+</android.support.constraint.ConstraintLayout>
