@@ -5,8 +5,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <GridView
-        android:verticalSpacing="5dp"
-        android:horizontalSpacing="5dp"
+
         android:numColumns="2"
         android:id="@+id/gridviewHinhAnh"
         android:layout_margin="8dp"

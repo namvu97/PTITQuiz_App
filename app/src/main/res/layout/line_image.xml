@@ -5,6 +5,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <ImageView
         android:id="@+id/imageviewHinhAnh"
-        android:layout_width="150dp"
+        android:layout_width="match_parent"
         android:layout_height="150dp" />
 </LinearLayout>
